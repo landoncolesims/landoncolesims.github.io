@@ -1,1 +1,100 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e4304215b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Demo Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="header__logo">Landon Sims</h1>
+            <nav class="header__nav">
+                <ul class="header__nav_list">
+                    <li class="header__nav_listItem"><a href="#profile">About</a></li>
+                    <li class="header__nav_listItem"><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="profile"class="profile">
+            <figure>
+                <img src="images/headshot.jpg" alt="headshot image" class="profile__headshot_image">
+            </figure>
+            <article class="profile__heading">
+                <h3>Bio</h3>
+                <p>
+                    Interested in multiple topics including some of which include mathematics, nueroscience, and quantitative trading.
+                    After participating in the Ohio State University Marching band and pursuing a career in discresionary trading it
+                    has led me to pursuing software development. 
+                </p>
+                <h3>Contact</h3>
+                <p>
+                    Email: landoncolesims@gmail.com
+                </p>
+                <h3>Professional Socials</h3>
+                <p>
+                    GitHub: https://github.com/landoncolesims
+                </p>
+                <p>
+                    LinkedIn: www.linkedin.com/in/landoncolesims
+                </p>
+                <h3>Skills</h3>
+                <p>
+                    Java • Spring • Thymeleaf • JavaScript • MVC • HTML • CSS • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • JSON • React • REST APIs • Responsive Design / Mobile • Relational Databases • Source Control / GitHub
+
+                </p>
+                
+            </article>
+        </section>
+        <h2 class="projects__title">Current Projects</h2>
+        <section class="projects">
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pet</h3>
+                <figure class="projects__column_figure">
+                    <img src="images/Screen Shot 2021-11-29 at 8.18.35 PM.png"  alt="" class="projects__column_image">
+                    <input type="button" onclick="window.location.href='https://github.com/2021-October-Java-PT/virtual-pet-landoncolesims';" class="projects__column_button"value="Click!">
+                </figure>
+                <p>Virtual Pet was the first project I had completed in Java. It is the least complicated of the three projects. Demonstrated
+                    the use of constructors and implimenting methods in an application class. The program keeps track of a pets vitals such 
+                    hunger, thirst, waste, and happiness.
+                </p>
+
+            </article>
+            <article id="projects" class="projects__column">
+                <h3 class="projects__column_title">Virtual Pet Shelter</h3>
+                <figure class="projects__column_figure">
+                    <img src="images/Screen Shot 2021-11-29 at 8.17.42 PM.png" alt="" class="projects__column_image">
+                    <input type="button" onclick="window.location.href='https://github.com/2021-October-Java-PT/virtual-pet-shelter-landoncolesims';" class="projects__column_button"value="Click!">
+                </figure>
+                <p>Virtual Pet Shelter was the next iteration on Virtual Pet. In this iteration I implimented a collection of multiple pets with the same
+                    attributes of the pet in virtual pet. These pets can also be adopted and admitted from and to the shelter. 
+                </p>
+
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pets Amok</h3>
+                <figure class="projects__column_figure">
+                    <img src="images/Screen Shot 2021-11-29 at 8.27.43 PM.png" alt="" class="projects__column_image">
+                    <input type="button" onclick="window.location.href='https://github.com/2021-October-Java-PT/virtual-pets-amok-landoncolesims';" class="projects__column_button"value="Click!">
+                </figure>
+                <p> Virtual Pets Amok is the combination of the previous projects with expanding the feature set to include this that would allow inheritance.
+                    With all these new features it makes it more difficult to the user of the application to keep up with the needs of the shelter.
+                </p>
+
+            </article>
+        </section>
+        <footer class="footer">
+            <section class="footer__social">
+                <i class="bi-github" role="img" aria-label="GitHub"></i>
+                <a href="#profile" class= "fa fa-linkedin"></a>
+                <a href="#profile" class= "fa fa-github"></a>
+            </section>
+        </footer>
+    </div>
+</body>    
+</html>
